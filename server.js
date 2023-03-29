@@ -18,7 +18,7 @@ app.use(cors());
 const seedDB = async () => {
   try {
     await Destination.deleteMany({});
-    console.log("Destinations removed.");
+    console.log("Destinations removedd.");
 
     await Destination.insertMany(sampleDestinations);
     console.log("Sample destinations added.");
